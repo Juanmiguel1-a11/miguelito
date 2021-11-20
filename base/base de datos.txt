@@ -1,0 +1,9 @@
+CREATE DATABASE mathematicalspace;
+
+CREATE TABLE usuarios (
+	Usuario VARCHAR (10),
+	Contraseña VARCHAR (10),
+	Correo VARCHAR (69),
+	Numero INT(10),
+	Fechanacimiento date
+);
